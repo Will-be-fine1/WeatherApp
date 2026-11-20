@@ -53,3 +53,11 @@ Praca nad projektem realizowana jest z wykorzystaniem systemu kontroli wersji Gi
 Do organizacji i monitorowania zadań wykorzystywana jest platforma Trello.
 
 Zmiany w kodzie są wprowadzane na osobnych gałęziach roboczych, a następnie przekazywane do repozytorium głównego za pomocą Pull Requestów.
+## 7. Zadania projektowe – Trello
+
+Moje zadania realizowane w ramach projektu WeatherApp:
+
+1. [Implementacja modułu uiUpdater.js](https://trello.com/c/3lAhaWfR/13-implementacja-modu%C5%82u-uiupdaterjs)
+2. [Weryfikacja i testowanie modułu uiUpdater.js](https://trello.com/c/hKftu8jw/8-weryfikacja-i-testowanie-modu%C5%82u-uiupdaterjs)
+
+Zadania są zarządzane za pomocą platformy Trello.
