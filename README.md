@@ -1,42 +1,55 @@
-# projekt_wdrożeniowy
 # WeatherApp
 
 ## 1. Opis projektu
 
-WeatherApp to aplikacja pogodowa, której celem jest umożliwienie użytkownikom sprawdzania informacji o pogodzie w wybranej lokalizacji.
+WeatherApp to aplikacja pogodowa umożliwiająca użytkownikom sprawdzanie informacji o pogodzie w wybranej lokalizacji.
 
-Projekt realizowany jest zespołowo w ramach przedmiotu Zarządzanie projektem wdrożeniowym.
+Projekt realizowany jest zespołowo w ramach przedmiotu **Zarządzanie projektem wdrożeniowym** na Uniwersytecie WSB Merito w Gdańsku.
 
-## 2. Planowane funkcjonalności
+## 2. Funkcjonalności projektu
 
-- Wyszukiwanie pogody dla wybranej lokalizacji.
+- Wyszukiwanie pogody według nazwy miasta.
 - Wyświetlanie aktualnych warunków pogodowych.
 - Prezentowanie podstawowych parametrów pogody.
-- Czytelny i intuicyjny interfejs użytkownika.
+- Wyświetlanie informacji o wilgotności, prędkości wiatru i ciśnieniu atmosferycznym.
+- Aktualizacja interfejsu użytkownika na podstawie danych pogodowych.
+- Obsługa wyszukiwania nieznanych lokalizacji.
 
-Powyższe funkcjonalności stanowią założenia projektu. Ich implementacja wymaga potwierdzenia przez zespół.
+## 3. Wykorzystywane technologie i narzędzia
 
-## 3. Wykorzystywane technologie
-
-Technologie i narzędzia zostaną uzupełnione po ustaleniu stosu technologicznego przez zespół.
-
-Narzędzia zarządzania projektem:
+- HTML5
+- CSS3
+- JavaScript
 - Git
 - GitHub
 - Trello
 
-## 4. Uruchomienie projektu
+## 4. Moja rola w projekcie
 
-Instrukcja uruchomienia zostanie uzupełniona po przygotowaniu kodu źródłowego i ustaleniu technologii.
+**Bogdan Moskovchenko – Członek zespołu 4**
 
-## 5. Struktura zespołu
+Odpowiedzialność za implementację modułu `uiUpdater.js`.
 
-- Project Manager: do uzupełnienia
-- Członek zespołu 2: do uzupełnienia
-- Członek zespołu 3: do uzupełnienia
-- Członek zespołu 4: do uzupełnienia
-- Członek zespołu 5: do uzupełnienia
+Zakres realizowanych zadań:
 
-## 6. Status projektu
+- Aktualizacja interfejsu użytkownika na podstawie danych pogodowych.
+- Wyświetlanie nazwy miasta i aktualnych informacji pogodowych.
+- Aktualizacja temperatury, wilgotności, prędkości wiatru i ciśnienia atmosferycznego.
+- Wyświetlanie opisu poziomu wilgotności.
+- Generowanie listy dostępnych miast.
+- Obsługa wyszukiwania pogody według nazwy miasta.
+- Integracja interfejsu z modułem `ApiManager`.
+- Automatyczne pobieranie danych pogodowych dla miasta Tokyo po uruchomieniu aplikacji.
 
-Projekt jest w fazie przygotowania i organizacji prac.
+## 5. Repozytoria GitHub
+
+- **Repozytorium główne:** https://github.com/Will-be-fine1/WeatherApp
+- **Mój Fork:** https://github.com/BogdanMosok/WeatherApp
+
+## 6. Organizacja pracy
+
+Praca nad projektem realizowana jest z wykorzystaniem systemu kontroli wersji Git i platformy GitHub.
+
+Do organizacji i monitorowania zadań wykorzystywana jest platforma Trello.
+
+Zmiany w kodzie są wprowadzane na osobnych gałęziach roboczych, a następnie przekazywane do repozytorium głównego za pomocą Pull Requestów.
